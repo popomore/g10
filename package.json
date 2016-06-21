@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "git cli with hook",
   "dependencies": {
+    "co": "^4.6.0",
     "giturl": "^1.0.0",
     "ini": "^1.3.4"
   },
@@ -18,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/popomore/coffee.git"
+    "url": "git://github.com/popomore/g10.git"
   },
-  "homepage": "https://github.com/popomore/coffee",
+  "homepage": "https://github.com/popomore/g10",
   "author": "popomore <sakura9515@gmail.com>",
   "keywords": [
     "git"
@@ -37,5 +38,9 @@
   "files": [
     "bin",
     "lib"
-  ]
+  ],
+  "bin": {
+    "g": "bin/g",
+    "g10": "bin/g"
+  }
 }
